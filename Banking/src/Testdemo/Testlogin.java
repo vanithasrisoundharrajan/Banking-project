@@ -28,8 +28,8 @@ public class Testlogin {
 	
 	@Test
 	public void openLogin() throws AWTException, InterruptedException{
-		driver.findElement(By.name("uid")).sendKeys("mngr985");
-		driver.findElement(By.name("password")).sendKeys("jUnyj");
+		driver.findElement(By.name("uid")).sendKeys("mngr98520");
+		driver.findElement(By.name("password")).sendKeys("jUnyjYn");
 		driver.findElement(By.name("btnLogin"));
 		Robot robot=new Robot();
 		 robot.keyPress(KeyEvent.VK_ENTER);
