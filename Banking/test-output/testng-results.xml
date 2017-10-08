@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1440" started-at="2017-10-08T06:42:53Z" finished-at="2017-10-08T06:42:55Z">
+  <suite name="Default suite" duration-ms="4146" started-at="2017-10-08T07:13:37Z" finished-at="2017-10-08T07:13:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1440" started-at="2017-10-08T06:42:53Z" finished-at="2017-10-08T06:42:55Z">
-      <class name="Testdemo.TestParameter">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Testdemo.TestParameter@643b1d11]" name="openBrowser" is-config="true" duration-ms="5930" started-at="2017-10-08T12:12:47Z" finished-at="2017-10-08T12:12:53Z">
+    <test name="Default test" duration-ms="4146" started-at="2017-10-08T07:13:37Z" finished-at="2017-10-08T07:13:41Z">
+      <class name="Testdemo.Screenshot">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Testdemo.Screenshot@56f4468b]" name="openBrowser" is-config="true" duration-ms="3943" started-at="2017-10-08T12:43:33Z" finished-at="2017-10-08T12:43:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validLogin(java.lang.String, java.lang.String)[pri:0, instance:Testdemo.TestParameter@643b1d11]" name="validLogin" duration-ms="1420" started-at="2017-10-08T12:12:53Z" finished-at="2017-10-08T12:12:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr98520]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[jUnyjYn]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="openLink()[pri:0, instance:Testdemo.Screenshot@56f4468b]" name="openLink" duration-ms="1887" started-at="2017-10-08T12:43:37Z" finished-at="2017-10-08T12:43:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="close()[pri:0, instance:Testdemo.TestParameter@643b1d11]" name="close" is-config="true" duration-ms="95" started-at="2017-10-08T12:12:55Z" finished-at="2017-10-08T12:12:55Z">
+        </test-method> <!-- openLink -->
+        <test-method status="PASS" signature="openLogin()[pri:0, instance:Testdemo.Screenshot@56f4468b]" name="openLogin" duration-ms="2253" started-at="2017-10-08T12:43:39Z" finished-at="2017-10-08T12:43:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Testdemo.Screenshot@56f4468b]" name="close" is-config="true" duration-ms="193" started-at="2017-10-08T12:43:42Z" finished-at="2017-10-08T12:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- Testdemo.TestParameter -->
+      </class> <!-- Testdemo.Screenshot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
