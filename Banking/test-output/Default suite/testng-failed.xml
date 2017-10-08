@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Testdemo.Testlogin">
+      <class name="Testdemo.Verification">
         <methods>
-          <include name="openLogin"/>
-          <include name="openLink"/>
           <include name="openBrowser"/>
           <include name="close"/>
+          <include name="openLogin"/>
         </methods>
-      </class> <!-- Testdemo.Testlogin -->
+      </class> <!-- Testdemo.Verification -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

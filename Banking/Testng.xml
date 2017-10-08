@@ -3,9 +3,14 @@
 <suite name="example suite 1" verbose="1">
 
 	<test name="Regression suite 1">
-	
-		<classes>
+	<parameter name="username" value="mngr98520"></parameter>
+	<parameter name="password" value="jUnyjYn"></parameter>
+	<!--  <classes>
 			<class name="Testdemo.Testlogin"></class>
-		</classes>
+		</classes>  -->
+		 <classes>
+			<class name="Testdemo.TestParameter"></class>
+		</classes> 
+		
 	</test>
 </suite>
